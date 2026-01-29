@@ -1,0 +1,188 @@
+html {
+    height: 100%;
+    /* font-family: sans-serif; */
+    font-family: 'DejaVu Sans Mono';
+}
+body {
+    /* height: 100vh; */
+    /* width: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 40px;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.contentset1.content {
+    height:440px;
+    background-color: #e6ac00;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 52px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.topinfo {
+    margin-top: -20px;
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.introinfo {
+    display:flex;
+    flex-direction: column;
+    width: 600px;
+    gap:10px;
+    align-items: flex-start;
+}
+
+.top {
+    font-size: 36px;
+    font-weight: bold;
+}
+.mid {
+    font-size: 20px;
+}
+
+.learnmorebutton {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.contentset2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e6e6e6;
+}
+
+.middleinfo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 50px 0;
+}
+
+.imgcards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    box-sizing: border-box;
+    border: 15px solid black;
+    border-radius: 250px;
+}
+
+.contentset3 {
+    display: flex;
+    flex-direction: column;
+    padding: 55px 0;
+    background-color:  #0d0d0d;
+    color: white;
+    font-size: 22px;
+    gap: 15px;
+}
+.messagetop {
+    width: 800px;
+    align-self: center;
+    font-style: italic;
+}
+.messagebot {
+    width: 800px;
+    font-weight: bold;
+
+    align-self: flex-end;
+}
+
+.contentset4 {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botinfocard {
+    height: 150px;
+    width: 800px;
+    background-color: #e68a00;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 20px;
+    gap: 30px;
+}
+
+.botinfotitle, .botinfomsg {
+    color: white;
+    width: 400px;
+    
+}
+.botinfotitle {
+    font-weight: bold;
+    font-size: 22px;
+}
+.botinfomsg {
+    font-size: 18px;
+}
+
+.signupbutton {
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 5px solid white;
+    padding: 25px;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    flex:1;
+    padding: 20px;
+    background-color: #ff8000;
+    font-weight: bold;
+}
